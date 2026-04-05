@@ -40,7 +40,4 @@ npx playwright show-report
 | TC-04 | Empty cart shows message and Browse CTA works  | Functional  |
 | TC-05 | Profile page shows auth gate for guests        | Auth/Security|
 
-## Notes
-- Tests are read-only and do not modify any data
-- Rate limiting: tests include natural delays; do not run in parallel bursts
-- Screenshots saved on failure in `test-results/` folder
+
